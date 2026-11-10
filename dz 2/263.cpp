@@ -1,1 +1,12 @@
-
+#include <iostream>
+int main(){
+    int i=0;
+    int v=0;
+    for (;0 == v; i = i+1){
+        std:: cin >> v;
+    }
+    i = i-1;
+    int x = i%5; //столбец
+    int y = i/5; // строка
+    std:: cout << std:: abs(x-2)+ std::abs(y-2);
+}
